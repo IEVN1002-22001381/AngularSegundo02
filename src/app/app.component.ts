@@ -5,6 +5,8 @@ import { RouterOutlet } from '@angular/router';
 //import { ZodiacoComponent } from "./formularios/zodiaco/zodiaco.component";
 import { initFlowbite } from 'flowbite';
 import { NavbarComponent } from "./navbar/navbar.component";
+import { TemhComponent } from "./tem/temh/temh.component";
+import { TempComponent } from "./tem/temp/temp.component";
 
 @Component({
   selector: 'app-root',
@@ -12,7 +14,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
     //DistanciaComponent, 
     //MultiplicacionComponent, 
     //ZodiacoComponent, 
-    NavbarComponent],
+    NavbarComponent, TemhComponent, TempComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
